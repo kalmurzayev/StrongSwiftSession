@@ -1,5 +1,5 @@
 //
-//  StatementItemModel.swift
+//  BankStatementItemModel.swift
 //  StrongSwiftSession
 //
 //  Created by Azamat Kalmurzayev on 2/25/19.
@@ -7,7 +7,8 @@
 //
 
 import Foundation
-@objc class StatementItemModel: NSObject {
+/// Класс представляющий одну транзакцию из банковской выписки с наименованием, суммой и датой
+@objc class BankStatementItemModel: NSObject {
     /// Идентификатор транзакции
     var ident: String
     /// Описание транзакции

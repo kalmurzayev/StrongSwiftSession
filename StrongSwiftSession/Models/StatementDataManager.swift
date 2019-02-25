@@ -8,10 +8,10 @@
 
 import Foundation
 @objc protocol StatementDataManagerProtocol: class {
-    /// Сервисный метод, возвращающий список сущностей StatementItemModel
+    /// Сервисный метод, возвращающий список сущностей BankStatementItemModel
     ///
-    /// - Returns: Список сущностей StatementItemModel
-    func getStatement() -> [StatementItemModel]
+    /// - Returns: Список сущностей BankStatementItemModel
+    func getStatement() -> [BankStatementItemModel]
 }
 
 @objc class StatementDataManager: NSObject, StatementDataManagerProtocol {
@@ -21,25 +21,25 @@ import Foundation
         return formatter
     }()
     
-    func getStatement() -> [StatementItemModel] {
+    func getStatement() -> [BankStatementItemModel] {
         guard let jsonArray = readJsonHelper(filename: "statement") as? [[String: Any]] else {
             return []
         }
         return jsonArray.compactMap(mapToItemModel(obj:))
     }
     
-    /// Утилитный метод для опционального маппинга из Swift dictionary в бизнес модель StatementItemModel
+    /// Утилитный метод для опционального маппинга из Swift dictionary в бизнес модель BankStatementItemModel
     ///
     /// - Parameter obj: Примитивный Swift dictionary
-    /// - Returns: Сконвертированная StatementItemModel сущность
-    private func mapToItemModel(obj: [String: Any]) -> StatementItemModel? {
+    /// - Returns: Сконвертированная BankStatementItemModel сущность
+    private func mapToItemModel(obj: [String: Any]) -> BankStatementItemModel? {
         guard let ident = obj["id"] as? String,
             let title = obj["title"] as? String,
             let amount = obj["amount"] as? Double,
             let dateRaw = obj["date"] as? String,
             let date = StatementDataManager.deserializationFormat.date(from: dateRaw)
             else { return nil }
-        return StatementItemModel(ident: ident, title: title, amountValue: amount, date: date)
+        return BankStatementItemModel(ident: ident, title: title, amountValue: amount, date: date)
     }
     
     private func readJsonHelper(filename: String) -> Any? {
