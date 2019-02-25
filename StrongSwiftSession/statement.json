@@ -1,0 +1,187 @@
+[
+    {
+        "id": "2b95a75d-672a-4e83-b73f-4965d577f4f1",
+        "date": "2018-05-23 23:00:00",
+        "title": "Оплата автомойки #1",
+        "amount": -200
+    },
+    {
+        "id": "2b95a75d-672a-4e83-b73f-4961d577f4f1",
+        "type": "service",
+        "date": "2018-05-26 16:00:00",
+        
+        "title": "Оплата автомойки 2",
+        "amount": -200
+        
+    },
+    {
+        "id": "2b95a75d-672a-4e83-b33f-4965d577f4f1",
+        "type": "service",
+        "date": "2018-05-26 06:00:00",
+        
+        "title": "Оплата автомойки 3",
+        "amount": -200
+        
+    },
+    {
+        "id": "4b14d26c-4938-47ff-81ea-7d13faab2222",
+        "type": "transfer",
+        "date": "2018-05-24 16:00:00",
+        
+        "title": "Перевод Yandex Money",
+        "amount": 800
+        
+    },
+    {
+        "id": "4b14d26c-4938-47d5-81ea-7d13faabce92",
+        "type": "transfer",
+        "date": "2018-05-24 06:00:00",
+        
+        "title": "Перевод на карту",
+        "amount": -500
+        
+    },
+    {
+        "id": "4b14d26c-1938-47d5-81ea-7d13faabce92",
+        "type": "transfer",
+        "date": "2018-05-01 16:00:00",
+        
+        "title": "Перевод на карту",
+        "amount": 200
+        
+    },
+    {
+        "id": "4b14d26c-4938-47d5-41ea-7d13faabce92",
+        "type": "transfer",
+        "date": "2018-05-01 10:00:00",
+        
+        "title": "Almaty Taxi services",
+        "amount": -100
+        
+    },
+    {
+        "id": "62e2229c-f1a9-4339-b04d-eb43cf45bf32",
+        "type": "transfer",
+        "date": "2018-05-01 06:00:00",
+        
+        "title": "Game Stop magazine",
+        "amount": -1110
+        
+    },
+    {
+        "id": "0e5b897b-ac38-468f-b1ec-033210f08f1e",
+        "type": "phone",
+        "date": "2018-04-24 12:00:00",
+        
+        "title": "Мобильный услуги",
+        "amount": 220
+        
+    },
+    {
+        "id": "b96d0afe-2091-493b-9691-d14fd8660e79",
+        "type": "transfer",
+        "date": "2018-04-24 13:00:00",
+        
+        "title": "Оплата автомойки 423",
+        "amount": -150
+        
+    },
+    {
+        "id": "b96d0afe-2091-433b-9691-d14fd8660e79",
+        "type": "transfer",
+        "date": "2018-04-24 18:00:00",
+        
+        "title": "Оплата автомойки 36",
+        "amount": -580
+        
+    },
+    {
+        "id": "b96d0afe-2091-493b-9691-d14fd8660e79",
+        "type": "transfer",
+        "date": "2018-04-24 21:00:00",
+        
+        "title": "Оплата автомойки 56",
+        "amount": -600
+        
+    },
+    {
+        "id": "62e2229c-f1a9-4339-b04d-eb43cf45bf32",
+        "type": "transfer",
+        "date": "2018-04-15 16:00:00",
+        
+        "title": "Покупка Мир Книг",
+        "amount": -150
+        
+    },
+    {
+        "id": "62e2229c-f1a9-4339-b04d-43cf45bf32",
+        "type": "transfer",
+        "date": "2018-04-15 06:00:00",
+        
+        "title": "ДомКино ООО",
+        "amount": -10
+        
+    },
+    {
+        "id": "62e2229c-f1a9-4339-b04d-eb43cf5bf32",
+        "type": "transfer",
+        "date": "2018-04-05 09:00:00",
+        
+        "title": "МРС Невский пр",
+        "amount": -50
+        
+    },
+    {
+        "id": "62e2223c-f1a9-4339-b04d-eb43cf45bf32",
+        "type": "transfer",
+        "date": "2018-04-05 06:00:00",
+        
+        "title": "Sunway Inn Tekerovo",
+        "amount": -10
+        
+    },
+    {
+        "id": "0e5b897b-ac38-468f-b1ec-033210f08f1e",
+        "type": "phone",
+        "date": "2018-04-02 04:00:00",
+        
+        "title": "Bought tv show 332",
+        "amount": -180
+        
+    },
+    {
+        "id": "0e5b897b-ac38-468f-b1ec-03310f08f1e",
+        "type": "phone",
+        "date": "2018-04-02 06:00:00",
+        
+        "title": "Bought tv show 123 ",
+        "amount": -180
+        
+    },
+    {
+        "id": "0e5b897b-ac38-48f-b1ec-033210f08f1e",
+        "type": "phone",
+        "date": "2018-04-01 10:00:00",
+        
+        "title": "Bought tv show 53122",
+        "amount": -180
+    
+    },
+    {
+        "id": "0e5b837b-ac38-468f-b1ec-033210f08f1e",
+        "type": "phone",
+        "date": "2018-04-01 08:00:00",
+        
+        "title": "Bought tv show 5152",
+        "amount": -180
+        
+    },
+    {
+        "id": "b96d0afe-2091-493b-9691-d14fd8660e79",
+        "type": "transfer",
+        "date": "2018-04-01 06:00:00",
+        
+        "title": "Subscription fee sss",
+        "amount": -105
+        
+        }]
